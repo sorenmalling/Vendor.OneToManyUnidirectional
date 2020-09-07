@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "vendor/onetomanyunidirectional",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\OneToManyUnidirectional\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Vendor.OneToManyUnidirectional"
+        }
+    }
+}
